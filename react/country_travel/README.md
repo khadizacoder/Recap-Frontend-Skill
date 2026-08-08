@@ -1,16 +1,33 @@
-# React + Vite
+# Visited Country 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Visited Country is a simple country travel website where users can explore different countries and keep track of the countries they have visited.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🌎 Explore different countries
+* 🔍 View country information
+* ✅ Mark a country as visited
+* 📌 See the total number of visited countries
+* 🔄 Switch between available countries and visited countries
+* 📱 Responsive design for different screen sizes
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Tailwind CSS
+* JavaScript
+* REST Countries API
 
-## Expanding the Oxlint configuration
+## What I Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+While building this project, I practiced React components, props, state management, API data, conditional rendering, and Tailwind CSS.
+
+## Live Website
+
+[Visited Country](https://country-travel-khadizacoder.netlify.app/)
+
+## Developer
+
+Developed by **khadizacoder**
+
+GitHub: https://github.com/khadizacoder
