@@ -5,19 +5,13 @@ export default function County({ country, isVisited }) {
 
   const handleVisited = () => {
     setVisite(!visite)
-    if (visite == false) {
-      // প্রথম click → add
-      isVisited(country);
-    } else {
-      // দ্বিতীয় click → remove
-      isVisited(country, true);
-    }
+    isVisited(country)
   }
 
   return (
-    <div className={`bg-blue-200 p-6 mx-auto rounded-lg hover:ring-1 ring-blue-700 hover:shadow-2xl hover:-translate-y-1 transition-transform duration-200`}>
+    <div className={`bg-blue-200 p-6 mx-auto rounded-lg hover:ring-1 ring-blue-700 hover:shadow-2xl hover:-translate-y-1 transition-transform duration-200 cursor-pointer`}>
 
-        <img src={country.flags.flags.png} alt={country.name.common} />
+        <img src={country.flags.flags.png} alt={country.name.common} className='w-100 h-40 bg-cover' />
         <div className='flex mt-2'>
           <span className='font-medium mr-2'>Name: </span>
           {country.name.common}
@@ -27,7 +21,7 @@ export default function County({ country, isVisited }) {
 
         <button 
           onClick={handleVisited} 
-          className='bg-blue-500 w-full py-2 rounded font-medium text-white mt-4'>
+          className={`w-full py-2 rounded font-medium text-white mt-4 ${visite ? 'bg-amber-600' : 'bg-blue-500 '}`}>
           {visite ? "Visited" : "Visite Now"}
         </button>
     </div>
