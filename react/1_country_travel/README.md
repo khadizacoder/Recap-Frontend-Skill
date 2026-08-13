@@ -24,7 +24,7 @@ While building this project, I practiced React components, props, state manageme
 
 ## Live Website
 
-[Visited Country](https://country-travel-khadizacoder.netlify.app/)
+[Visited Country Website](https://country-travel-khadizacoder.netlify.app/)
 
 ## Developer
 
