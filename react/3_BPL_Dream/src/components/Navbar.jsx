@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Logo from '../assets/logo.png'
 import Currency from '../assets/Currency.png'
 import { NavLink } from 'react-router-dom'
 
-export default function Navbar() {
+export default function Navbar({balanced}) {
 
   const navBar = [
     {id: 1, name: "Home"},
@@ -12,8 +12,18 @@ export default function Navbar() {
     {id: 4, name: "Schedules"}
   ]
 
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      setScroll(window.scrollY > 50)
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div>
+    <div className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scroll ? "bg-black/60 text-white" : "bg-white text-[#131313]"}`}>
         <div className='w-11/12 max-w-screen-xl mx-auto py-3 flex items-center justify-between'>
             <div>
                 <img src={Logo} alt="logo" className='w-15' />
@@ -22,14 +32,14 @@ export default function Navbar() {
                 <div className='flex gap-3'>
                   {
                     navBar.map(item => (
-                      <span key={item.id} className='cursor-pointer text-[#131313]'>
+                      <span key={item.id} className='cursor-pointer'>
                         {item.name}
                       </span>
                     ))
                   }
                 </div>
                 <div className='flex items-center gap-2 border-1 p-2 border-gray-200 rounded-lg font-medium'>
-                  <p>0 Coin</p>
+                  <p>{balanced} Coin</p>
                   <img src={Currency} alt="currency" />
                 </div>
             </div>
