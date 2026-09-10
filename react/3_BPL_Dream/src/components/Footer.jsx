@@ -10,25 +10,27 @@ export default function Footer() {
           <p className='text-base my-2'>Get the latest updates and news right in your inbox!</p>
           <div className='flex items-center gap-2 mt-3'>
             <input type="text" className='border-1 rounded-lg border-gray-300 roundedlg py-1.5 px-3 w-60' />
-            <button className='font-semibold bg-amber-700 px-4 py-2 rounded-lg'>Subscribe</button>
+            <button className='font-semibold bg-amber-700 px-4 py-2 rounded-lg text-white'>Subscribe</button>
           </div>
         </div>
       </div>
 
-      <div className='border-1 border-white/70 mt-8'></div>
+      <div className='h-[1px] bg-white/70 mt-8'></div>
 
       <div className='my-8 w-11/12 max-w-screen-xl mx-auto'>
         <div className='w-full flex justify-center'>
           <img src={Logo} alt="footer-logo" />
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-          <div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-6'>
+          {/* Left */}
+          <div className='lg:justify-self-start'>
             <h2 className='text-white font-semibold text-xl'>About Us</h2>
             <p className='mt-3'>We are a passionate team dedicated to providing the best services to our customers.</p>
           </div>
 
-          <div>
+          {/* Center */}
+          <div className='lg:justify-self-center'>
             <h2 className='text-white font-semibold text-xl'>Quick Links</h2>
             <ul className='pl-5 space-y-1 mt-3'>
               <li className='list-disc'>Home</li>
@@ -38,7 +40,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          {/* Right */}
+          <div className='lg:justify-items-start'>
             <h2 className='text-white font-semibold text-xl'>Subscribe to our Newsletter</h2>
             <p className='mt-2 w-65'>Subscribe to our newsletter for the latest updates.</p>
             <div className='flex items-center mt-5'>
@@ -49,6 +52,8 @@ export default function Footer() {
         </div>
 
       </div>
+
+      <div className='h-[1px] bg-white/20 mt-8'></div>
 
       <div className='flex flex-row justify-center py-4'>
         <p>&copy; 2024 Your Company All Rights Reserved.</p>
