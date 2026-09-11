@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Unable to login",
+    "description": "Customer cannot log in to their account using the correct email and password.",
+    "customer": "Rahim Ahmed",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-09-11"
+  },
+  {
+    "id": 2,
+    "title": "Payment failed",
+    "description": "The payment fails when the customer tries to complete the checkout process.",
+    "customer": "Nusrat Jahan",
+    "priority": "Urgent",
+    "status": "Open",
+    "createdAt": "2026-09-10"
+  },
+  {
+    "id": 3,
+    "title": "Order not received",
+    "description": "Customer has not received the order even though the tracking shows it as delivered.",
+    "customer": "Tanvir Hasan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-09-09"
+  },
+  {
+    "id": 4,
+    "title": "Wrong product delivered",
+    "description": "Customer received a different product from the one they ordered.",
+    "customer": "Mim Akter",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-09-09"
+  },
+  {
+    "id": 5,
+    "title": "Account verification issue",
+    "description": "Customer is not receiving the verification email after creating an account.",
+    "customer": "Sakib Khan",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-09-08"
+  },
+  {
+    "id": 6,
+    "title": "Refund request",
+    "description": "Customer wants a refund for a recently cancelled order.",
+    "customer": "Jannatul Ferdous",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-09-08"
+  },
+  {
+    "id": 7,
+    "title": "Website loading slowly",
+    "description": "Customer reports that product pages are taking too long to load.",
+    "customer": "Arif Hossain",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-09-07"
+  },
+  {
+    "id": 8,
+    "title": "Unable to update profile",
+    "description": "Customer cannot save changes after updating their profile information.",
+    "customer": "Sumaiya Islam",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-09-06"
+  },
+  {
+    "id": 9,
+    "title": "Coupon code not working",
+    "description": "The promotional coupon code is not being applied during checkout.",
+    "customer": "Fahim Rahman",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-09-06"
+  },
+  {
+    "id": 10,
+    "title": "Product out of stock",
+    "description": "Customer wants to purchase a product that is currently showing as unavailable.",
+    "customer": "Tania Sultana",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-09-05"
+  },
+  {
+    "id": 11,
+    "title": "Delivery address change",
+    "description": "Customer wants to change the delivery address for an existing order.",
+    "customer": "Imran Hossain",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-09-05"
+  },
+  {
+    "id": 12,
+    "title": "Duplicate order created",
+    "description": "Customer accidentally placed the same order twice and wants to cancel one.",
+    "customer": "Sadia Rahman",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-09-04"
+  },
+  {
+    "id": 13,
+    "title": "Password reset problem",
+    "description": "Customer is unable to reset their password using the reset link.",
+    "customer": "Nayeem Hasan",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-09-03"
+  },
+  {
+    "id": 14,
+    "title": "Missing item from order",
+    "description": "One item is missing from the customer's delivered package.",
+    "customer": "Raisa Ahmed",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-09-02"
+  },
+  {
+    "id": 15,
+    "title": "Cancel order request",
+    "description": "Customer wants to cancel an order that has not been shipped yet.",
+    "customer": "Mehedi Hasan",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-09-01"
+  }
+]
