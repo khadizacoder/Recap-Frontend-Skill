@@ -3,11 +3,11 @@ import OpenCercle from '../assets/cercle.png'
 import Ellipse from '../assets/Ellipse-2.png'
 import Calendar from '../assets/calendar-line.png'
 
-export default function Cart({ cart }) {
+export default function Cart({ cart, handleProgress }) {
   const { title, description, customer, priority, status, createdAt } = cart;
-  console.log(cart)
+
   return (
-    <div className='bg-white p-6 rounded space-y-3'>
+    <div onClick={() => handleProgress(cart)} className='bg-white p-6 rounded space-y-3 shadow'>
       <div className='flex items-center justify-between'>
         <h2 className='font-medium text-xl'>{title}</h2>
 

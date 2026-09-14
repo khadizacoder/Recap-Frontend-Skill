@@ -1,4 +1,7 @@
 import React from 'react'
+import X from '../assets/twiter.png'
+import FB from '../assets/fb.png'
+import Linkdin from '../assets/linkdin.png'
 
 export default function Footer() {
   return (
@@ -31,11 +34,19 @@ export default function Footer() {
                 <p>Join Us</p>
             </div>
 
-            <div className=''>
+            <div className='space-y-2'>
                 <h1 className='font-semibold text-xl mb-2'>Social Links</h1>
-                <div>
-                    <img src="" alt="" />
-                    <p>@CS        — Ticket System</p>
+                <div className='flex items-center gap-2'>
+                    <img src={X} alt="X" />
+                    <p>@CS — Ticket System</p>
+                </div>
+                <div className='flex items-center gap-2'>
+                    <img src={FB} alt="FB" />
+                    <p>@CS — Ticket System</p>
+                </div>
+                <div className='flex items-center gap-2'>
+                    <img src={Linkdin} alt="linkdin" />
+                    <p>@CS — Ticket System</p>
                 </div>
             </div>
 

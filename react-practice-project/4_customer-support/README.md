@@ -1,16 +1,42 @@
-# React + Vite
+# Customer Support Zone 🎧
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React-based customer support ticket management app built from a Figma design. It helps support teams manage tickets, track task progress, and mark issues as resolved.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://customer-support-khadizacoder.netlify.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* Real-time **In Progress** and **Resolved** ticket counts
+* View ticket details, priority, customer, status, and date
+* Move tickets to **Task Status** by clicking them
+* Mark tasks as **Complete** and move them to **Resolved**
+* Toast notifications using **React-Toastify**
+* Fully responsive design with **Tailwind CSS**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+* React.js
+* JavaScript (ES6+)
+* Tailwind CSS
+* React-Toastify
+* React Icons / Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📚 Q&A
+
+### What is JSX?
+
+JSX lets us write HTML-like code inside JavaScript. It makes React components easier to write and understand.
+
+### State vs Props
+
+**State** is data managed inside a component and can change over time.
+
+**Props** are data passed from a parent component to a child component. They are read-only inside the child.
+
+### What is useState?
+
+`useState` is a React Hook used to store and update data in a component. When the state changes, React updates the UI automatically.
+
+```javascript
+const [state, setState] = useState(initialValue);
+```
