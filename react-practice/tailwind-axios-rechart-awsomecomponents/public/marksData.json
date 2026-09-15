@@ -1,0 +1,132 @@
+[
+  {
+    "studentId": 101,
+    "studentName": "Rahul Sharma",
+    "marks": {
+      "Mathematics": 85,
+      "Science": 90,
+      "English": 78,
+      "History": 82,
+      "Computer": 95
+    },
+    "total": 430,
+    "average": 86.0
+  },
+  {
+    "studentId": 102,
+    "studentName": "Ananya Sen",
+    "marks": {
+      "Mathematics": 92,
+      "Science": 88,
+      "English": 95,
+      "History": 89,
+      "Computer": 90
+    },
+    "total": 454,
+    "average": 90.8
+  },
+  {
+    "studentId": 103,
+    "studentName": "Rohan Roy",
+    "marks": {
+      "Mathematics": 65,
+      "Science": 70,
+      "English": 68,
+      "History": 72,
+      "Computer": 80
+    },
+    "total": 355,
+    "average": 71.0
+  },
+  {
+    "studentId": 104,
+    "studentName": "Priya Das",
+    "marks": {
+      "Mathematics": 78,
+      "Science": 82,
+      "English": 85,
+      "History": 80,
+      "Computer": 88
+    },
+    "total": 413,
+    "average": 82.6
+  },
+  {
+    "studentId": 105,
+    "studentName": "Tanvir Ahmed",
+    "marks": {
+      "Mathematics": 95,
+      "Science": 96,
+      "English": 89,
+      "History": 91,
+      "Computer": 98
+    },
+    "total": 469,
+    "average": 93.8
+  },
+  {
+    "studentId": 106,
+    "studentName": "Sneha Roy",
+    "marks": {
+      "Mathematics": 58,
+      "Science": 62,
+      "English": 70,
+      "History": 65,
+      "Computer": 75
+    },
+    "total": 330,
+    "average": 66.0
+  },
+  {
+    "studentId": 107,
+    "studentName": "Amit Verma",
+    "marks": {
+      "Mathematics": 88,
+      "Science": 84,
+      "English": 80,
+      "History": 78,
+      "Computer": 91
+    },
+    "total": 421,
+    "average": 84.2
+  },
+  {
+    "studentId": 108,
+    "studentName": "Meera Khan",
+    "marks": {
+      "Mathematics": 72,
+      "Science": 75,
+      "English": 81,
+      "History": 85,
+      "Computer": 79
+    },
+    "total": 392,
+    "average": 78.4
+  },
+  {
+    "studentId": 109,
+    "studentName": "Kabir Patel",
+    "marks": {
+      "Mathematics": 90,
+      "Science": 91,
+      "English": 88,
+      "History": 86,
+      "Computer": 94
+    },
+    "total": 449,
+    "average": 89.8
+  },
+  {
+    "studentId": 110,
+    "studentName": "Nusrat Jahan",
+    "marks": {
+      "Mathematics": 81,
+      "Science": 79,
+      "English": 84,
+      "History": 88,
+      "Computer": 87
+    },
+    "total": 419,
+    "average": 83.8
+  }
+]

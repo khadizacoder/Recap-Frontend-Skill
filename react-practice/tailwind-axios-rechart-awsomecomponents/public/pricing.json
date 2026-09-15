@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "planName": "Basic",
+    "badge": null,
+    "price": "$9/mo",
+    "buttonText": "Get Started",
+    "buttonClass": "btn-outline btn-primary",
+    "features": [
+      { "text": "High-resolution image generation", "available": true },
+      { "text": "Customizable style templates", "available": true },
+      { "text": "Batch processing capabilities", "available": false },
+      { "text": "AI-driven image enhancements", "available": false },
+      { "text": "Seamless cloud integration", "available": false },
+      { "text": "Real-time collaboration tools", "available": false }
+    ]
+  },
+  {
+    "id": 2,
+    "planName": "Premium",
+    "badge": "Most Popular",
+    "price": "$29/mo",
+    "buttonText": "Subscribe",
+    "buttonClass": "btn-primary",
+    "features": [
+      { "text": "High-resolution image generation", "available": true },
+      { "text": "Customizable style templates", "available": true },
+      { "text": "Batch processing capabilities", "available": true },
+      { "text": "AI-driven image enhancements", "available": true },
+      { "text": "Seamless cloud integration", "available": false },
+      { "text": "Real-time collaboration tools", "available": false }
+    ]
+  },
+  {
+    "id": 3,
+    "planName": "Enterprise",
+    "badge": "Best Value",
+    "price": "$79/mo",
+    "buttonText": "Contact Us",
+    "buttonClass": "btn-accent",
+    "features": [
+      { "text": "High-resolution image generation", "available": true },
+      { "text": "Customizable style templates", "available": true },
+      { "text": "Batch processing capabilities", "available": true },
+      { "text": "AI-driven image enhancements", "available": true },
+      { "text": "Seamless cloud integration", "available": true },
+      { "text": "Real-time collaboration tools", "available": true }
+    ]
+  }
+]
