@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link, useLoaderData } from 'react-router';
+import { getWishlistBooks } from '../../Utility/addToDB';
 import { MdInsertPageBreak, MdOutlineSupervisorAccount } from 'react-icons/md';
-import { Link } from 'react-router';
 
-export default function ListBookDetails({ book }) {
-    const {bookId, bookName, image, author, tags, review, category, totalPages, publisher, yearOfPublishing, rating } = book;
-
+export default function WishlistBooks({ wishlist }) {
+    const { bookId, bookName, image, author, tags, review, category, totalPages, publisher, yearOfPublishing, rating } = wishlist;
 
     return (
         <>
