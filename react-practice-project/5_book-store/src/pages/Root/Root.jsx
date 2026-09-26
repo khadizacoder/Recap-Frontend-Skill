@@ -6,14 +6,16 @@ import Footer from '../../components/Footer/Footer'
 export default function Root() {
 
   return (
-    <div className='max-w-6xl w-11/12 mx-auto flex flex-col min-h-screen'>
-      <Navbar />
+    <div className='bg-white text-gray-800'>
+      <div className='max-w-6xl w-11/12 mx-auto flex flex-col min-h-screen'>
+        <Navbar />
 
-      <main className='flex-1'>
-        <Outlet />
-      </main>
+        <main className='flex-1'>
+          <Outlet />
+        </main>
 
-      <Footer />
+        <Footer />
+      </div>
     </div>
   )
 }

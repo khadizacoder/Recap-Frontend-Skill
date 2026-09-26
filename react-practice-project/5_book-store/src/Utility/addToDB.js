@@ -1,4 +1,9 @@
 import { toast } from 'react-toastify';
+// SweetAlert2
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+const MySwal = withReactContent(Swal)
+
 
 const getStoredBook = () => {
 
@@ -16,6 +21,13 @@ const addToStroedDB = (id) => {
 
     if(stroedBookData.includes(id)){
         toast.error("Already Exsixt!");
+
+        Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Something went wrong!",
+        footer: "<a href=\"#\">Why do I have this issue?</a>"
+        });
     }
     else{
         stroedBookData.push(id)
@@ -23,6 +35,13 @@ const addToStroedDB = (id) => {
         const setData = JSON.stringify(stroedBookData);
         localStorage.setItem("readList" ,setData);
         toast.success("Read Add Complete!")
+
+        // SweetAlert2
+        Swal.fire({
+        title: "Good Job!",
+        icon: "success",
+        draggable: true
+        });
     }
 }
 
@@ -43,6 +62,13 @@ const addToWishlistBooks = (id) => {
     if(storeWishlistData.includes(id))
     {
         toast.error("Already Exsixt!");
+
+        Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Something went wrong!",
+        footer: "<a href=\"#\">Why do I have this issue?</a>"
+        });
     }
     else{
         storeWishlistData.push(id)
@@ -50,6 +76,13 @@ const addToWishlistBooks = (id) => {
         const setWishlistData = JSON.stringify(storeWishlistData);
         localStorage.setItem("WishlistBooks" ,setWishlistData);
         toast.success("Read Add Complete!")
+
+        // SweetAlert2
+        Swal.fire({
+        title: "Good Job!",
+        icon: "success",
+        draggable: true
+        });
     }
 }
 

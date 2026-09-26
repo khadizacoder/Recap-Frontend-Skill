@@ -8,7 +8,7 @@ export default function Home({promissData}) {
 
   return (
     <div>
-      <title>Book Store - Home</title>
+      {/* <title>Book Store - Home</title> */}
       <Banner />
       <Books promissData={promissData}/>
     </div>

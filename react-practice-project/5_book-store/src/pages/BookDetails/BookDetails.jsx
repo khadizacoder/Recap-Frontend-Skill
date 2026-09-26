@@ -4,6 +4,11 @@ import { addToStroedDB, addToWishlistBooks } from '../../Utility/addToDB';
 import { ToastContainer } from 'react-toastify'; // Import koro
 import 'react-toastify/dist/ReactToastify.css'; // CSS import koro
 
+// SweetAlert2
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+const MySwal = withReactContent(Swal)
+
 export default function BookDetails() {
   const { id } = useParams();
   const bookId = parseInt(id);
@@ -14,6 +19,14 @@ export default function BookDetails() {
 
   const handleMarkAsRead = (id) => {
     addToStroedDB(id);
+
+    // // SweetAlert2
+    // Swal.fire({
+    //   title: "Good Job!",
+    //   icon: "success",
+    //   draggable: true
+    // });
+
   }
 
   const HandleWishlistBooks = (id) => {
@@ -24,7 +37,7 @@ export default function BookDetails() {
     <>
       <ToastContainer position='top-right' autoClose={2000} />
       <div className='grid gap-4 md:gap-6 lg:gap-10 lg:grid-cols-[40%_60%] py-15'>
-
+        <title>{bookName}</title>
         <div className='bg-[#F3F3F3] lg:p-15 p-8 rounded'>
           <img src={image} alt="BookImage" className='h-80 md:h-110 lg:h-full mx-auto' />
         </div>

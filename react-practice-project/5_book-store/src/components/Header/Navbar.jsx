@@ -13,13 +13,13 @@ export default function Navbar() {
                 <NavLink 
                     to={item.path} 
                     key={item.id}
-                    className={({isActive}) => `px-4 py-1.5 rounded ${isActive ? `text-[#23BE0A] border` : ""}`}
+                    className={({isActive}) => `px-4 py-1.5 rounded ${isActive ? `text-[#23BE0A] border` : "text-gray-800"}`}
                 >{item.name}</NavLink>
             ));
 
     return (
         <div>
-            <div className="navbar bg-base-100 p-0 my-2">
+            <div className="navbar bg-base-100 p-0 my-2 bg-white">
                 <div className="navbar-start">
                     <div className="dropdown static md:relative">
                         <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
